@@ -43,4 +43,4 @@ To submit an escapist to the site, create an issue with the following layout:
 
 # Updating The Site
 
-Want to help the site stay up to date? Feel free to add prisons, escapes, builders, and escapists as JSON files in their respective folders (/src/SiteData/Prisons, /src/SiteData/Escapes, /src/SiteData/Builders, and /src/SiteData/Escapists) and any images in /src/SiteData/CATEGORY/Images. The images should be named following the conventions Prison_Name-Image_Name, and the JSON file should be called Prison_Name. Once this is all done, you can create a pull request!
+Want to help the site stay up to date? Feel free to add prisons, escapes, builders, and escapists as JSON files in their respective folders (/src/SiteData/CATEGORY) and any images in /src/SiteData/CATEGORY/Images. The images should be named following the conventions Prison_Name-Image_Name, and the JSON file should be called Prison_Name-Prison_ID (If you dont know what the ID should be use XXXXXX). I'd reccomend using an existing JSON file as reference to make you life easier, but once you're all done, you can create a pull request!
