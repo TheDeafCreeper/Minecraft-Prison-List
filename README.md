@@ -31,7 +31,7 @@ To submit a builder to the site, create an issue with the following layout:
 
 - Discord name and Discriminator
 - Minecraft name
-- List of prisons (That perferably exist on the site)
+- List of prisons (That preferably exist on the site)
 
 # Submitting Escapists
 
@@ -39,7 +39,7 @@ To submit an escapist to the site, create an issue with the following layout:
 
 - Discord name and Discriminator
 - Minecraft name
-- List of escapes (That perferably exist on the site)
+- List of escapes (That preferably exist on the site)
 
 # Updating The Site
 
