@@ -1,0 +1,121 @@
+{
+    "id": 1,
+    "name": "Gaia's Vault",
+    "description": "",
+    "creators": ["TheDeafCreeper", "SeenSven", "Jerrylum", "Obamaman"],
+    "details": {
+        "survivalBuildable": true,
+        "phesablyBuildable": false
+    },
+    "versions": {
+        "4.1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/4.1/Gaias.Vault.v4.1.zip",
+            "changelog": [
+                "Removed trapdoors from guard area ceiling.",
+                "Removed AFK Tunnel.",
+                "Added block above emergency exit to allow pearl glitching to work again.",
+                "Added Inner Trap Portal Broken light to warden's room.",
+                "Added a sound when someone steps into/out of a 1 person door.",
+                "Added an extra trap portal.",
+                "Made the emergency exit not covered by the outer area bans.",
+                "Made the emergency exit do less damage.",
+                "Made a block being broken in the cell trigger a lockdown.",
+                "Made autopanic triggers also trigger a lockdown.",
+                "Made elder guardians persistent.",
+                "Shifted second 1 person door over a block.",
+                "Fixed warden equipment station not dispensing helmet.",
+                "Fixed being unable to walk out of second 1 person door.",
+                "Fixed clock in South cell.",
+                "Chorus Proofed pearl detector.",
+                "Replaced Cobble in cell with netherite (still regenerates into cobblestone)"
+            ]
+        },
+        "4": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/4/Gaias.Vault.v4.zip",
+            "changelog": [
+                "Added more perm chunk bans.",
+                "Added signs to the guard tunnels to prevent using dragon eggs to create chorus spots.",
+                "Added an extra bed to the exit process.",
+                "Added 2 players detector after second bed gate.",
+                "Added Warden Keycard back to keycard chest.",
+                "Adjusted the crystals in the portal hallway.",
+                "Fixed the cell respawn system.",
+                "Fixed Guard Stasis 1 & 2 not being triggered by lockdown/activate all stasis button.",
+                "Updated warden backup auto panic lever to be inverted.",
+                "Extended mining detector by a few blocks.",
+                "Updated the guard handbook"
+            ]
+        },
+        "3": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/3/Gaias.Vault.v3.zip",
+            "changelog": [
+                "Added lever to force enable (and prevent disabling) auto panic in a secondary respawn area for the warden.",
+                "Added \"Inner Chunk Ban Mining Detector\". Basically \"Inner Chunkban Pearl Detector\" but on top.",
+                "Added a few more blocks to the warden-guard room wall.",
+                "Made the suicide button practically impossible to accidentally trigger.",
+                "Made all Elder Guardian chambers 3 blocks tall.",
+                "Made the ender pearl dropper not store any items.",
+                "Made first decon bed gate detect if a block is placed vs pushed to the side.",
+                "Swapped swiss and player detector at the bottom of the prison.",
+                "Some misc redstone rewiring to cover up exposed redstone.",
+                "Shifted second decon composter over 1 block",
+                "Replaced snowballs with keycards.",
+                "Depreciated guard portal (new process for adding guards)",
+                "Filled chunk ban control room with water",
+                "Fixed the first bed gate alarm getting stuck on.",
+                "Fixed exit bed door.",
+                "Fixed one of the outer chunk bans",
+                "Tweaked the guard handbook."
+            ]
+        },
+        "2": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/2/Gaias.Vault.v2.zip",
+            "changelog": [
+                "Added observers under the hoppers for each bed gate. (Because why not)",
+                "Added \"Inner Chunkban Pearl Detector\" light to warden room.",
+                "Added some blocks to limit pearling in the guard room.",
+                "Added \"Warden Leave Auto Panic\", basically if the warden gets disconnected while this is enabled auto panic starts.",
+                "Improved warden equipment machine.",
+                "Improved all player online detectors.",
+                "Made all setup command blocks relative",
+                "Made it so you cannot open the inner and outer door of the first bed gate at the same time (Security stuff)",
+                "Expanded pearl glitch detector.",
+                "Filled the cell completely up with end crystals.",
+                "Replaced endstone walls with enchantment tables.",
+                "Replaced bottom swiss with swiss V4",
+                "Removed 4 ticks of delay for the outer portal when using the guard portal. (Should remove any amount of time no portals are open)",
+                "Removed map item frames from warden's room (for ease of readding them on your own server)",
+                "Fixed outer door of first bed gate (Should close properly now if you place a block in it)"
+            ]
+        },
+        "1.2": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/1.2/Gaias.Vault.v1.2.zip",
+            "changelog": [
+                "Added 1 sea lantern",
+                "Fixed refill tunnel redstone line"
+            ]
+        },
+        "1.1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/1.1/Gaias.Vault.v1.1.zip",
+            "changelog": [
+                "Added trapdoor beside the cell access room door",
+                "Improved swiss cheese above visitor areas",
+                "Made auto panic enable inner chunkbans",
+                "Refill all the chests"
+            ]
+        },
+        "1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/Jerrylum/GaiasVault/releases/download/1/Gaias.Vault.v1.zip",
+            "changelog": ["Initial Release"]
+        }
+    },
+    
+    "escapes": []
+}
