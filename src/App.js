@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react'
 import './App.css';
+import Prisons from './Components/Pages/Prisons';
+import Builders from './Components/Pages/Builders';
+import Escapists from './Components/Pages/Escapists';
+import Header from './Components/Header/Header';
+import NotFound from './Components/Pages/404';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    user: null,
+    servers: [],
+    selectedServer: null
+  }
+
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+          <Routes>
+            <Route exact path="/prisons" element={<Prisons />} />
+            <Route exact path="/builders" element={<Builders />} />
+            <Route exact path="/escapists" element={<Escapists />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
