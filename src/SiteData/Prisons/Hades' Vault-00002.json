@@ -1,0 +1,365 @@
+{
+    "id": 2,
+    "name": "Hades' Vault",
+    "description": "",
+    "creators": [
+        "TheDeafCreeper",
+        "SeenSven",
+        "Obamaman"
+    ],
+    "details": {
+        "survivalBuildable": true,
+        "phesablyBuildable": true
+    },
+    "versions": {
+        "KFC V1": {
+            "gameVersion": "1.17.1",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/KenadianChallenge/Hades.Vault.KC.zip",
+            "changelog": []
+        },
+        "V19.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v19/Hades.Vault.V19.zip",
+            "changelog": [
+                "Made Med and High security door keycards get automatically dropped",
+                "Changed the wire for the outer portal control",
+                "Fixed med security door locked light",
+                "Fixed guard portal",
+                "Added unbreaking and mending to exit portal flint and steel."
+            ]
+        },
+        "V18.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v18/Hades.Vault.V18.zip",
+            "changelog": [
+                "Removed Locker 1",
+                "Replaced Locker 2 with a much smaller locker type",
+                "Removed old sign",
+                "Added lounge/brewing room",
+                "Added slimeblocks to the resupply chests",
+                "Added netherak to resupply chests",
+                "Increased the amount of chorus fruit in the chests.",
+                "Updated the water column lock sign so that you can tell what state the lock's in.",
+                "Made the bed gate harming potion refill more secure.",
+                "Lockdowns no longer summon every guard.",
+                "Rewired a couple of redstone lines to make silverfish strat a little harder.",
+                "Added a \"Non Audible Lockdowns\" lever (basically just disables the alarm)",
+                "Added lockdown indicator lights to First Decon, Second Decon, Cell Access, and the guard room.",
+                "Added a new compostor xray machine next to the portal hallway.",
+                "Added door locked indicators next to the med and high security doors",
+                "Made the lockdown even harder to tamper with.",
+                "Flooded the guard room."
+            ]
+        },
+        "V17.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v17/Hades.Vault.V17.zip",
+            "changelog": [
+                "Added pillar to first stasis activator",
+                "Made first stasis room 2 blocks tall",
+                "Added missing button to cell lockdown trigger",
+                "Upgraded Portal Room side stasis room door keycard reader.",
+                "Made the first decon control room smaller",
+                "Made the medium security door lock during a lockdown",
+                "Made trigger lockdown activate all stasis chambers, not just the warden's.",
+                "Made the lockdown harder to lock in the off state.",
+                "Made the hallway from cell access to the cell pearl glitch ladder get blocked off during a lockdown.",
+                "Made exit portal 2 blocks wide",
+                "Fixed the door to the exit portal",
+                "Added more blocks that extend in the exit portal",
+                "Added light to warden's room that notifies you if the pressure plates in the exit portal triggered a lockdown.",
+                "Added a lever to disable all guard stasis activators. If you need to flip this the warden should stay in the guard area to summon guards as needed.",
+                "Actually included the new nether in the world download"
+            ]
+        },
+        "V16.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v16/Hades.Vault.V16.zip",
+            "changelog": [
+                "Unblocked the second bedgate lock wire",
+                "Improved the backup exit door",
+                "Removed the last place you can spawn withers in the visitor area",
+                "Made the \"Unlock door to hallway\" button not trigger guard 3 stasis",
+                "Replaced stasis trap doors with wood trapdoors so that they can be directly activated.",
+                "Added an Ender Chest to the warden's room",
+                "Added instant healing arrows to the armory.",
+                "Slightly changed the first bedgate",
+                "Made the first bed gate detect placing blocks in the doorway",
+                "Added a small door to block off the first bedgate kill trap refill",
+                "Added torches to the cell",
+                "Readded cell clock fixer button",
+                "Changed first decon trapdoor to prevent pearl glitching into it from outside of first decon bed gate",
+                "Moved nether side portal to the nether roof",
+                "Replaced iron trapdoors in the swiss cheese with heavy (iron) pressure plates."
+            ]
+        },
+        "V15.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v15/Hades.Vault.V15.zip",
+            "changelog": [
+                "Made Portal Room 2 blocks wide",
+                "Made lockers a little more compact",
+                "Made all of first Decon 2 blocks wide",
+                "Added more pearl glitch tunnels",
+                "Made the pearl glitch tunnels chorus proof",
+                "Added the ability to lock the water column",
+                "Added the ability to go back up to the armory from the fishing area",
+                "Added 2 more chests with water, totems, potions, and beds",
+                "Replaced glass before first bedgate with anvils",
+                "Put glass on the other side of the shield from the anvils",
+                "Expanded the walls of the shell down",
+                "Added lock to outer lava tunnel door",
+                "Fixed a keycard reader",
+                "Refilled warden equip station"
+            ]
+        },
+        "V14.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v14/Hades.Vault.V14.zip",
+            "changelog": [
+                "Made portal breaking detector trigger a lockdown as well",
+                "Fixed Locker 1 keycard reader",
+                "Put cell drowned in a minecart",
+                "Unblocked guard respawn beds",
+                "Made the outer portal turn on for longer",
+                "Moved the elder guardian spawner obsidian back to the dropper",
+                "Made bed tunnel a bit more secure",
+                "Fixed \"Controls Active\" sign in first decon",
+                "Made portal control room shorter"
+            ]
+        },
+        "V13.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v13/Hades.Vault.V13.zip",
+            "changelog": [
+                "Improved wither prevention in portal room",
+                "Improved Swiss Cheese",
+                "Made the inner portal instantly close when broken",
+                "Removed space for withers in lockers.",
+                "Moved and Improved the cell",
+                "Removed bed counter",
+                "Removed Conduit",
+                "Converted All inside obsidian to crying obsidian.",
+                "The 1 person door is no longer locked by the first decon window shield being closed",
+                "Added a dropper for giving items to the prisoner (probably just food) under the cell",
+                "Moved the repair station to the armory.",
+                "Added a lava pit to prevent bed glitching into the guard area"
+            ]
+        },
+        "V12.1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v12.1/Hades.Vault.V12.1.zip",
+            "changelog": [
+                "Added an extra tick of delay to the cell clock",
+                "Set clock detector repeater to 4 ticks"
+            ]
+        },
+        "V12.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v12/Hades.Vault.V12.zip",
+            "changelog": [
+                "Upgraded Shell (Walls this time)",
+                "Replaced grindstones above cell bed with endstone brick walls",
+                "Replaced trapdoors and signs in portal room with pillars",
+                "Narrowed the path from the controls to the ladder in first decon.",
+                "Added hoppers under second bed gate (Smuggling is even MORE impossible now)",
+                "Removed a random wire.",
+                "Made the cobble gen use waterlogged stairs.",
+                "Made the cell regen a bit faster",
+                "Added cell hallway access directly from the cell access control room (Via pearl glitch tunnel).",
+                "Added direct cell access (via pearl glitch tunnel) to the cell observation room.",
+                "Made the cell only have water on the floor (To prevent swimming)",
+                "Removed water from second decon hallway.",
+                "Added unbreaking and mending to all flint and steel.",
+                "Moved the dispensers on the outside portal up to reduce ease of tampering.",
+                "The schematic should now contain entities (you may need to use //paste -e vs just //paste)"
+            ]
+        },
+        "V11.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v11/Hades.Vault.V11.zip",
+            "changelog": [
+                "Expanded swiss cheese part of the shell",
+                "Made high security door lock during lockdown",
+                "Added swiss cheese to the portal room",
+                "Made Ceiling in portal room 2 blocks tall",
+                "Replaced glass above cell bed with grindstones",
+                "Managed to squeeze in some observers to watch the cobble directly next to the cell bed.",
+                "Added a pearl glitch tunnel to the portal room",
+                "Added the ability to pull back the soul sand in the bubble elevator for easier access to the pearl glitch tunnel.",
+                "Filled in various holes I left on accident",
+                "Replaced iron door into bubble elevator with a piston door",
+                "Added a couple of mini pieces of swiss in some places",
+                "Filled observer side of long door with leaves.",
+                "Removed trap doors from guard area (apparently you can chorus onto them?)",
+                "Added an obstruction in the locker to prevent withers",
+                "Filled the portal room with trapdoors/signs to prevent TNT and Withers being placed",
+                "Removed lockable door towards portal room",
+                "Made most hallways filled with water",
+                "Reworked the inner portal to make is more secure"
+            ]
+        },
+        "V10.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v10/Hades.Vault.V10.zip",
+            "changelog": [
+                "Fixed fire res dispenser lock",
+                "Made sea lanterns and glass in cell hallway follow an Obby-Block-Block-Obby pattern",
+                "Added signs/trapdoors to the cell hallway to prevent placing blocks",
+                "Removed signs from the portal side of the exit tunnel",
+                "Fixed bed break detector reset."
+            ]
+        },
+        "V9.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v9/Hades.Vault.V9.zip",
+            "changelog": [
+                "The guard portal now temporarily enables the outside portal.",
+                "The call guards button now makes a different noise and doesnt send a signal inside when entry is prohibited.",
+                "Added an extra 1 way door from the hub towards first decon",
+                "Powered the entire hallway leading to the trapdoor to first decon from the hub",
+                "Added lockable door towards portal controls",
+                "Added backup exit from armory",
+                "Made hoppers under first bed auto trigger lockdown",
+                "Remade one of the walls 3 thick",
+                "The observer under the cell bed is a bit smarter (auto conduit disable is disabled if bed broken)",
+                "Put trapdoors on the floor of all guard areas"
+            ]
+        },
+        "V8.2": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v8.2/Hades.Vault.V8.2.zip",
+            "changelog": [
+                "Removed a misplaced block"
+            ]
+        },
+        "V8.1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v8.1/Hades.Vault.V8.1.zip",
+            "changelog": [
+                "Removed a misplaced block"
+            ]
+        },
+        "V8.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v8/Hades.Vault.V8.zip",
+            "changelog": [
+                "Redid Shell (Should be pearl proof now?)",
+                "Increased length of 1 tall tunnel to cell",
+                "Added daylight sensors to second decon",
+                "Added 1 way crawl door to exit tunnel",
+                "Made exit portal unable to open until visitor gets past 1 way door.",
+                "Removed test drowned from next to cell",
+                "Made connection between warden's room and exit portal more secure",
+                "Added portal in guard room for leaving/adding new guards.",
+                "Made portal side of first bedgate 3 wide again",
+                "Changed \"Reset Bed Alarm\" to \"Reset Bed Counter\"",
+                "Added AFK fishing spot",
+                "Made trapdoors in lava tunnel open during a lockdown",
+                "Added lever to guard room that turns prep light on/off",
+                "Changed lever in portal control for the prep light from turning it on/off to enabling/disabling the light (whether or not it can be turned on at all)",
+                "Added a disconnect for the doorbell summon feature.",
+                "Replaced top piston towards med security door in hub with sign"
+            ]
+        },
+        "V7.1": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v7.1/Hades.Vault.V7.1.zip",
+            "changelog": [
+                "Just fixed some redstone things"
+            ]
+        },
+        "V7.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v7/Hades.Vault.V7.zip",
+            "changelog": [
+                "Improve clock fixer",
+                "Possibly remove some trapdoors from the hub area",
+                "Actually put obsidian between the control rooms",
+                "Make sure all obsidian you could potentially get access to (on the floor) is crying obsidian",
+                "Added Front stasis disconnect to guard room",
+                "Added signs to part of front decon window",
+                "Reinforced first stasis door",
+                "Replaced (most) netherite with obsidian/crying obsidian)",
+                "Added a piston in the cell tunnel to prevent the use of pistons for breaking the bed",
+                "Added a guard hallway directly to the second stasis activator",
+                "Puts signs/daylight sensors in a lot of places to stop pistons",
+                "Added a squiggly bit infront of the cell tunnel",
+                "Added hoppers under the first decon bed",
+                "Made end lockdown button get disabled when no lockdown is occuring.",
+                "Added more crying obsidian under some floors",
+                "Increased how long you have to wait before the bell can trigger the warden's stasis chamber again."
+            ]
+        },
+        "V6.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v6/Hades.Vault.V6.zip",
+            "changelog": [
+                "Made top block on inside of first bedtrap retract",
+                "Moved the first decon guard trapdoor to inside of bed gate",
+                "Made the first decon hallway smaller",
+                "Added a layer of trapdoors on bottom side of the shell <- Experimental to see if it stops pearl glitching",
+                "Made the first bed gate use harming potions (The trapdoor freed up some room)",
+                "Set the blocks above the prisoner's bed back to glass",
+                "Added trapdoors to ceiling of the hub to prevent completely blocking it off"
+            ]
+        },
+        "V5.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v5/Hades.Vault.V5.zip",
+            "changelog": [
+                "Fixed the connection between the lockdown system and first decon",
+                "Added tnt detection next to the first 2 stasis activation doors",
+                "Added a trigger lockdown button to the main guard room",
+                "Made every obsidian floor crying obsidian",
+                "Moved some of the pistons in the cell tunnel to the bottom",
+                "Added TNT detection in the lava side of the bed gate",
+                "Added a barrier in the window of the bed gate (so you cant just blow it up and go around)",
+                "Added Observers to the lava tunnel",
+                "Made the exit tunnel lock during a lockdown",
+                "Replaced first kill trap with a bed gate"
+            ]
+        },
+        "V4.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v4/Hades.Vault.V4.zip",
+            "changelog": [
+                "Made the alarm able to detect some amount of tampering",
+                "Converted the floors of all the guard areas to crying obsidian",
+                "Made the trapdoor into the hallway towards first decon 2 thick",
+                "Added a level to turn on the \"Entry Prohibited\" light manually",
+                "Reinforced the wiring to and from the cell",
+                "Added some extra observers",
+                "Added some command blocks to summon elder guardians correctly (can be removed after use)",
+                "Moved the drowned next to the bed gate down 2 blocks",
+                "Made the cell controls room access blocked off during a lockdown",
+                "Moved the trigger lockdown button in the cell view room to the floor so it actually works",
+                "Reinforced the area around the 1 person door",
+                "Added pumpkin pie to the lower guard area",
+                "Added some signs for easier navigation in the guard areas",
+                "Powered the blocks leading up to the first decon hallway trapdoor to make it harder to use pistons",
+                "Moved the cell clock detector to the top of the cell",
+                "Refilled all chests/dispensers",
+                "Added hoppers under the first kill trap",
+                "Make it so that a lockdown detector triggering during a lockdown does not summon the warden",
+                "Added a cooldown for the call guards button activating the stasis chambers"
+            ]
+        },
+        "V3.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v3/Hades.Vault.Update.3.zip",
+            "changelog": ["Fixed outer portal."]
+        },
+        "V2.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v2/Hades.Vault.Update.2.zip",
+            "changelog": ["Changelog Lost"]
+        },
+        "V1.0": {
+            "gameVersion": "1.16.5",
+            "download": "https://github.com/TheDeafCreeper/Hades-Vault/releases/download/v1/Hades.Vault.zip",
+            "changelog": ["Prison Created"]
+        }
+    },
+    "escapes": []
+}
