@@ -9,5 +9,6 @@
     "version": {
         "prison": "1",
         "minecraft": "1.16.5"
-    }
+    },
+    "valid": true
 }

@@ -12,6 +12,7 @@ export default class NavigationButton extends Component {
 const style = {
     margin: '0px 10px',
     padding: '5px 10px',
+    width: '200px',
     borderRadius: '10px',
     textDecoration: 'none',
     color: 'white',
